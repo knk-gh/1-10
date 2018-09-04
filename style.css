@@ -2,6 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-decoration: none;
+	color: #fafafa;
 }
 
 .clearfix::after {
@@ -175,6 +177,7 @@ nav {
 .cute i {
 	font-size: 60px;
 	text-align: center;
+	color: #000;
 }
 
 .fea-h3 {
@@ -186,6 +189,11 @@ nav {
 .f-m-b-content {
 	text-align: left;
 }
+
+ .fea-p {
+ 	font-size: 16px;
+ 	color: #000;
+ }
 
 .m-m-box:last-child {
 	margin-right: 0;
@@ -226,6 +234,7 @@ nav {
 .pro-h3 {
 	font-size: 20px;
 	padding-bottom: 5px;
+	color: #000;
 }
 
 .pro-p {
@@ -266,6 +275,7 @@ nav {
 .con-h3 {
 	font-size: 20px;
 	padding-bottom: 5px;
+	color: #000;
 }
 
 .con-p {
@@ -290,10 +300,16 @@ nav {
 .con-snsbox i {
 	font-size: 50px;
 	padding-right: 20px;
+	color: #000;
 }
 
 .con-snsbox i:last-child {
 	padding-right: 0;
+}
+
+.u-line {
+	color: #000;
+	border-bottom: 1px solid #000;
 }
 
 footer {
