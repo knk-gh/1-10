@@ -324,3 +324,152 @@ footer {
 	font-size: 16px;
 	color: #fafafa;
 }
+
+@media screen and (max-width: 767px) {
+	header {
+		width: 90%;
+		height: 50px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.main-visual {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-image: url(img/code.png);
+	}
+
+	nav {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.nav-logo {
+		height: 50px;
+	}
+
+	.m-v-h1 {
+		font-size: 40px;
+	}
+
+	.m-v-p {
+		font-size: 18px;
+	}
+
+	.portfolio {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.port-box {
+		width: 90%;
+	}
+
+	.port-image-item {
+		float: none;
+		margin: 0 auto;
+		padding-bottom: 10px;
+	}
+
+	.port-image-item:nth-child(odd) {
+		background-image: none;
+		padding-bottom: 0px;
+		width: 0;
+		height: 0;
+	}
+
+	.port-image-item:nth-child(even) {
+		padding-bottom: 0px;
+		margin-bottom: 10px;
+	}
+
+	.port-image-item:first-child {
+		margin-top: 0;
+	}
+
+	.port-image-item:nth-child(3n) {
+		margin: 0 auto;
+	}
+
+	.feature {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.fea-box {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.fea-mini-box {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin: 0 auto;
+	}
+
+	.m-m-box {
+		float: none;
+		margin-right: 0px;
+		margin: 0 auto;
+		padding-bottom: 10px;
+	}
+
+	.m-m-box:last-child {
+		margin: 0 auto;
+		padding-bottom: 0px;
+	}
+
+	.profile {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.pro-box {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.pro-image {
+		float: none;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: center;
+	}
+
+	.pro-intro {
+		float: none;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: center;
+	}
+
+	.contact {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.con-box {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	footer {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		height: 60px;
+	}
+
+}
